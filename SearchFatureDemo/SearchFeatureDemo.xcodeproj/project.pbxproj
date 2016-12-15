@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		B2D54EC51E02D0900067550D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54EC41E02D0900067550D /* main.m */; };
 		B2D54EC81E02D0900067550D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54EC71E02D0900067550D /* AppDelegate.m */; };
-		B2D54ECB1E02D0900067550D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54ECA1E02D0900067550D /* ViewController.m */; };
 		B2D54ECE1E02D0900067550D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D54ECC1E02D0900067550D /* Main.storyboard */; };
 		B2D54ED11E02D0900067550D /* SearchFatureDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2D54ECF1E02D0900067550D /* SearchFatureDemo.xcdatamodeld */; };
 		B2D54ED31E02D0900067550D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D54ED21E02D0900067550D /* Assets.xcassets */; };
 		B2D54ED61E02D0900067550D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D54ED41E02D0900067550D /* LaunchScreen.storyboard */; };
 		B2D54EE11E02D0910067550D /* SearchFatureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54EE01E02D0910067550D /* SearchFatureDemoTests.m */; };
 		B2D54EEC1E02D0910067550D /* SearchFatureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54EEB1E02D0910067550D /* SearchFatureDemoUITests.m */; };
+		B2D54EFB1E02D1DC0067550D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54EFA1E02D1DC0067550D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		B2D54EC41E02D0900067550D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2D54EC61E02D0900067550D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2D54EC71E02D0900067550D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2D54EC91E02D0900067550D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B2D54ECA1E02D0900067550D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B2D54ECD1E02D0900067550D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D54ED01E02D0900067550D /* SearchFatureDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchFatureDemo.xcdatamodel; sourceTree = "<group>"; };
 		B2D54ED21E02D0900067550D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		B2D54EE71E02D0910067550D /* SearchFatureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchFatureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D54EEB1E02D0910067550D /* SearchFatureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchFatureDemoUITests.m; sourceTree = "<group>"; };
 		B2D54EED1E02D0910067550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D54EF91E02D1DC0067550D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2D54EFA1E02D1DC0067550D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,9 @@
 			children = (
 				B2D54EC61E02D0900067550D /* AppDelegate.h */,
 				B2D54EC71E02D0900067550D /* AppDelegate.m */,
-				B2D54EC91E02D0900067550D /* ViewController.h */,
-				B2D54ECA1E02D0900067550D /* ViewController.m */,
 				B2D54ECC1E02D0900067550D /* Main.storyboard */,
+				B2D54EF91E02D1DC0067550D /* ViewController.h */,
+				B2D54EFA1E02D1DC0067550D /* ViewController.m */,
 				B2D54ED21E02D0900067550D /* Assets.xcassets */,
 				B2D54ED41E02D0900067550D /* LaunchScreen.storyboard */,
 				B2D54ED71E02D0900067550D /* Info.plist */,
@@ -279,9 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D54ECB1E02D0900067550D /* ViewController.m in Sources */,
 				B2D54EC81E02D0900067550D /* AppDelegate.m in Sources */,
 				B2D54EC51E02D0900067550D /* main.m in Sources */,
+				B2D54EFB1E02D1DC0067550D /* ViewController.m in Sources */,
 				B2D54ED11E02D0900067550D /* SearchFatureDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +432,7 @@
 				DEVELOPMENT_TEAM = 3QUCRBS8A9;
 				INFOPLIST_FILE = SearchFatureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SearchFatureDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SearchFeatureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -444,7 +444,7 @@
 				DEVELOPMENT_TEAM = 3QUCRBS8A9;
 				INFOPLIST_FILE = SearchFatureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SearchFatureDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SearchFeatureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
