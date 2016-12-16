@@ -16,6 +16,7 @@
 		B2CABF231E03C05200503F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CABF211E03C05200503F2E /* LaunchScreen.storyboard */; };
 		B2CABF2E1E03C05200503F2E /* ExpandableTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF2D1E03C05200503F2E /* ExpandableTableViewDemoTests.m */; };
 		B2CABF391E03C05200503F2E /* ExpandableTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF381E03C05200503F2E /* ExpandableTableViewDemoUITests.m */; };
+		B2CABF471E03DCA000503F2E /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CABF461E03DCA000503F2E /* Categories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2CABF341E03C05200503F2E /* ExpandableTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandableTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CABF381E03C05200503F2E /* ExpandableTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableViewDemoUITests.m; sourceTree = "<group>"; };
 		B2CABF3A1E03C05200503F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CABF461E03DCA000503F2E /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		B2CABF041E03C05100503F2E = {
 			isa = PBXGroup;
 			children = (
+				B2CABF461E03DCA000503F2E /* Categories.plist */,
 				B2CABF0F1E03C05100503F2E /* ExpandableTableViewDemo */,
 				B2CABF2C1E03C05200503F2E /* ExpandableTableViewDemoTests */,
 				B2CABF371E03C05200503F2E /* ExpandableTableViewDemoUITests */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CABF471E03DCA000503F2E /* Categories.plist in Resources */,
 				B2CABF231E03C05200503F2E /* LaunchScreen.storyboard in Resources */,
 				B2CABF201E03C05200503F2E /* Assets.xcassets in Resources */,
 				B2CABF1B1E03C05100503F2E /* Main.storyboard in Resources */,
@@ -518,6 +522,7 @@
 				B2CABF3F1E03C05200503F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CABF401E03C05200503F2E /* Build configuration list for PBXNativeTarget "ExpandableTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				B2CABF421E03C05200503F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CABF431E03C05200503F2E /* Build configuration list for PBXNativeTarget "ExpandableTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				B2CABF451E03C05200503F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
