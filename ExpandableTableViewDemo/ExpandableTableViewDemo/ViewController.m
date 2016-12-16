@@ -63,35 +63,47 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     NSDictionary *currentCellDictionary = [self getCurrentCellInfo:indexPath];
-    NSLog(@"current Dictionary : %@",currentCellDictionary);
-    NSLog(@"isParent : %d",[[currentCellDictionary valueForKey:@"isParent"] boolValue]);
+   
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
     
-    if([[currentCellDictionary valueForKey:@"isParent"] boolValue]){
-        
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
-        
-        if(cell == nil){
-            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
-        }
-        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
-        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
-        //cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
-        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        return cell;
-    }else{
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
-        
-        if(cell == nil){
-            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
-        }
-        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
-        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
-        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        
-        return cell;
+    if(cell == nil){
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
     }
+    NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+    cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
+    
+    //NSLog(@"current Dictionary : %@",currentCellDictionary);
+    //NSLog(@"isParent : %d",[[currentCellDictionary valueForKey:@"isParent"] boolValue]);
+    //cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
+    //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    if([[currentCellDictionary valueForKey:@"isParent"] boolValue]){
+//        
+//        
+//        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
+//        
+//        if(cell == nil){
+//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+//        }
+//        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+//        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
+//        //cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
+//        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//        return cell;
+//    }else{
+//        
+//        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
+//        
+//        if(cell == nil){
+//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+//        }
+//        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+//        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
+//        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//        
+//        return cell;
+//    }
+    
+    return cell;
 
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
