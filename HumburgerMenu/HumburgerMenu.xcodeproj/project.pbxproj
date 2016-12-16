@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2CABEFD1E03B93300503F2E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABEFC1E03B93300503F2E /* InfoViewController.m */; };
+		B2CABF001E03B94C00503F2E /* GooglePlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABEFF1E03B94C00503F2E /* GooglePlusViewController.m */; };
+		B2CABF031E03B96000503F2E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF021E03B96000503F2E /* SettingsViewController.m */; };
 		B2D54E791E02A65E0067550D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54E781E02A65E0067550D /* main.m */; };
 		B2D54E7C1E02A65E0067550D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54E7B1E02A65E0067550D /* AppDelegate.m */; };
 		B2D54E7F1E02A65E0067550D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D54E7E1E02A65E0067550D /* ViewController.m */; };
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2CABEFB1E03B93300503F2E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		B2CABEFC1E03B93300503F2E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		B2CABEFE1E03B94C00503F2E /* GooglePlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlusViewController.h; sourceTree = "<group>"; };
+		B2CABEFF1E03B94C00503F2E /* GooglePlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlusViewController.m; sourceTree = "<group>"; };
+		B2CABF011E03B96000503F2E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B2CABF021E03B96000503F2E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		B2D54E741E02A65E0067550D /* HumburgerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumburgerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D54E781E02A65E0067550D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2D54E7A1E02A65E0067550D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +129,12 @@
 				B2D54E7D1E02A65E0067550D /* ViewController.h */,
 				B2D54E7E1E02A65E0067550D /* ViewController.m */,
 				B2D54E801E02A65E0067550D /* Main.storyboard */,
+				B2CABEFE1E03B94C00503F2E /* GooglePlusViewController.h */,
+				B2CABEFF1E03B94C00503F2E /* GooglePlusViewController.m */,
+				B2CABF011E03B96000503F2E /* SettingsViewController.h */,
+				B2CABF021E03B96000503F2E /* SettingsViewController.m */,
+				B2CABEFB1E03B93300503F2E /* InfoViewController.h */,
+				B2CABEFC1E03B93300503F2E /* InfoViewController.m */,
 				B2D54E861E02A65E0067550D /* Assets.xcassets */,
 				B2D54E881E02A65E0067550D /* LaunchScreen.storyboard */,
 				B2D54E8B1E02A65E0067550D /* Info.plist */,
@@ -304,9 +319,12 @@
 			files = (
 				B2D54E851E02A65E0067550D /* HumburgerMenu.xcdatamodeld in Sources */,
 				B2D54EB31E02A8FE0067550D /* DashboardViewController.m in Sources */,
+				B2CABEFD1E03B93300503F2E /* InfoViewController.m in Sources */,
 				B2D54E7F1E02A65E0067550D /* ViewController.m in Sources */,
 				B2D54EB01E02A6870067550D /* SWRevealViewController.m in Sources */,
 				B2D54EB61E02AAEF0067550D /* ProfileViewController.m in Sources */,
+				B2CABF001E03B94C00503F2E /* GooglePlusViewController.m in Sources */,
+				B2CABF031E03B96000503F2E /* SettingsViewController.m in Sources */,
 				B2D54E7C1E02A65E0067550D /* AppDelegate.m in Sources */,
 				B2D54E791E02A65E0067550D /* main.m in Sources */,
 			);
@@ -403,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -544,6 +562,7 @@
 				B2D54EA61E02A65E0067550D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D54EA71E02A65E0067550D /* Build configuration list for PBXNativeTarget "HumburgerMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +571,7 @@
 				B2D54EA91E02A65E0067550D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D54EAA1E02A65E0067550D /* Build configuration list for PBXNativeTarget "HumburgerMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +580,7 @@
 				B2D54EAC1E02A65E0067550D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
