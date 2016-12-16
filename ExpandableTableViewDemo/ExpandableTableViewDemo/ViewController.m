@@ -64,46 +64,63 @@
     
     NSDictionary *currentCellDictionary = [self getCurrentCellInfo:indexPath];
    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
+//    
+//    if(cell == nil){
+//        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+//    }
+//    NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+//    cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
     
-    if(cell == nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
-    }
-    NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
-    cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
-    
-    //NSLog(@"current Dictionary : %@",currentCellDictionary);
+    //..NSLog(@"current Dictionary : %@",currentCellDictionary);
     //NSLog(@"isParent : %d",[[currentCellDictionary valueForKey:@"isParent"] boolValue]);
     //cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
     //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-//    if([[currentCellDictionary valueForKey:@"isParent"] boolValue]){
-//        
-//        
-//        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
-//        
-//        if(cell == nil){
-//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
-//        }
-//        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
-//        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
-//        //cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
-//        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-//        return cell;
-//    }else{
-//        
-//        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TVCell"];
-//        
-//        if(cell == nil){
-//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
-//        }
-//        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
-//        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
-//        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-//        
-//        return cell;
-//    }
+
     
-    return cell;
+    //[[cellInfo[tappedRow] valueForKey:@"isExpandable"] boolValue]
+    
+    
+    NSLog(@"current Dictionary : %@",currentCellDictionary);
+    
+    
+    if([[currentCellDictionary valueForKey:@"isExpandable"] boolValue]){
+        
+        UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+        
+//        if(cell == nil){
+//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+//        }
+        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
+        cell.textLabel.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18.0f];
+        UIImageView *accessoryImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 16, 16)];
+        //isExpanded
+        if ([[currentCellDictionary valueForKey:@"isExpanded"] boolValue]){
+            accessoryImageView.image = [UIImage imageNamed:@"icon_arrow_down"];
+            //cell.detailTextLabel.text = @"Status : Expanded";
+        }
+        else{
+            accessoryImageView.image = [UIImage imageNamed:@"icon_arrow_right"];
+            //cell.detailTextLabel.text = @"Status : Not Expanded";
+        }
+        cell.accessoryView = accessoryImageView;
+        return cell;
+    }else{
+        
+        UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+        
+//        if(cell == nil){
+//            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TVCell"];
+//        }
+        NSLog(@"Text Label : %@",[currentCellDictionary valueForKey:@"cellTitle"]);
+        cell.textLabel.text = [currentCellDictionary valueForKey:@"cellTitle"];
+        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        
+        return cell;
+    }
+    
+    //return cell;
 
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -122,7 +139,7 @@
     [cellInfo[tappedRow] setValue:[NSNumber numberWithBool:shouldExpandAndShow] forKey:@"isExpanded"];
     
     
-    for (int i = tappedRow + 1; i <= (tappedRow+[[cellInfo[tappedRow] valueForKey:@"additionalRows"] intValue]); i++) {
+    for (long i = tappedRow + 1; i <= (tappedRow+[[cellInfo[tappedRow] valueForKey:@"additionalRows"] intValue]); i++) {
         
         [cellInfo[i] setValue:[NSNumber numberWithBool:shouldExpandAndShow] forKey:@"isVisible"];
     }

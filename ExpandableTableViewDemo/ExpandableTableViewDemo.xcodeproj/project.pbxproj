@@ -17,6 +17,7 @@
 		B2CABF2E1E03C05200503F2E /* ExpandableTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF2D1E03C05200503F2E /* ExpandableTableViewDemoTests.m */; };
 		B2CABF391E03C05200503F2E /* ExpandableTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF381E03C05200503F2E /* ExpandableTableViewDemoUITests.m */; };
 		B2CABF471E03DCA000503F2E /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2CABF461E03DCA000503F2E /* Categories.plist */; };
+		B2CABF4A1E04057D00503F2E /* ExpandableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CABF491E04057D00503F2E /* ExpandableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B2CABF381E03C05200503F2E /* ExpandableTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableViewDemoUITests.m; sourceTree = "<group>"; };
 		B2CABF3A1E03C05200503F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CABF461E03DCA000503F2E /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		B2CABF481E04057D00503F2E /* ExpandableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableViewController.h; sourceTree = "<group>"; };
+		B2CABF491E04057D00503F2E /* ExpandableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B2CABF141E03C05100503F2E /* AppDelegate.m */,
 				B2CABF161E03C05100503F2E /* ViewController.h */,
 				B2CABF171E03C05100503F2E /* ViewController.m */,
+				B2CABF481E04057D00503F2E /* ExpandableViewController.h */,
+				B2CABF491E04057D00503F2E /* ExpandableViewController.m */,
 				B2CABF191E03C05100503F2E /* Main.storyboard */,
 				B2CABF1F1E03C05200503F2E /* Assets.xcassets */,
 				B2CABF211E03C05200503F2E /* LaunchScreen.storyboard */,
@@ -286,6 +291,7 @@
 				B2CABF1E1E03C05200503F2E /* ExpandableTableViewDemo.xcdatamodeld in Sources */,
 				B2CABF181E03C05100503F2E /* ViewController.m in Sources */,
 				B2CABF151E03C05100503F2E /* AppDelegate.m in Sources */,
+				B2CABF4A1E04057D00503F2E /* ExpandableViewController.m in Sources */,
 				B2CABF121E03C05100503F2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
