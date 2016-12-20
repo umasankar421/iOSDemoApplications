@@ -16,4 +16,5 @@ Contents:
 
 Description:
 
-1. Exapandable and Collapsable Tableview: In this demo project, you can find how to implement Expandable and collapsable Tableview in iOS. Expandable & collapsable Tableview is very much important feature to develop any e-Commerce application like Fliicart,Amazon and its a important feature for food ordering apps and so on.
+1. Exapandable and Collapsable Tableview: Expandable & collapsable Tableview is very much important feature to develop any e-Commerce application like Flipcart, Amazon and its a important feature for food ordering apps also and so on. In this demo project, you can find how to implement Expandable and collapsable Tableview in iOS. I have implemented two ways to achieve this.
+2. HumburgerMenu in iOS: HumburgerMenu is an important and basic feature to develop any type of application. In this demo project, I have done this Humburger Menu Implementation by using the third Party library "SWReavealController". By this, you can understand how to customize this "SWReavealContoller" Library for our project in iOS.
