@@ -6,4 +6,4 @@ Usage:
 
 Clone the git project to your harddisk.
 
-git clone https://github.com/umasankar421/iOSDemoApplications.git
+# git clone https://github.com/umasankar421/iOSDemoApplications.git
