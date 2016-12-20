@@ -1,6 +1,7 @@
 # iOS Demo Applications
 iOS Demo Applications
-This repository is a collection of sample apps that usually each go with one blog article at Cocoanetics.com
+
+This repository is a collection of sample apps that are very useful to develop application in iOS Native platform. In some of these, I have implemented my own block of codes and I used some third party Libraried to achieve some desired functionalities which are not directly provide by iOS framework.
 
 Usage:
 
