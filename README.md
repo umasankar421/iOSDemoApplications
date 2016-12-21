@@ -20,7 +20,7 @@ Contents:
 
 Description:
 
-1. Exapandable and Collapsable Tableview: Expandable & collapsable Tableview is very much important feature to develop any e-Commerce application like Flipcart, Amazon and its an important feature for food ordering apps also and so on. In this demo project, you can find how to implement Expandable and collapsable Tableview in iOS. I have implemented two ways to achieve this.
+==>> Exapandable and Collapsable Tableview: Expandable & collapsable Tableview is very much important feature to develop any e-Commerce application like Flipcart, Amazon and its an important feature for food ordering apps also and so on. In this demo project, you can find how to implement Expandable and collapsable Tableview in iOS. I have implemented two ways to achieve this.
 
 
 ![imageedit_6_5724183339](https://cloud.githubusercontent.com/assets/16932599/21347188/8d85ddec-c6cd-11e6-8788-ff31c46d8253.jpg)
@@ -30,17 +30,17 @@ Description:
 
 
 
-2. HumburgerMenu in iOS: HumburgerMenu is an important and basic feature to develop any type of application. In this demo project, I have done this Humburger Menu Implementation by using the third Party library "SWReavealController". By this, you can understand how to customize this "SWReavealContoller" Library for our project in iOS.
+==>> HumburgerMenu in iOS: HumburgerMenu is an important and basic feature to develop any type of application. In this demo project, I have done this Humburger Menu Implementation by using the third Party library "SWReavealController". By this, you can understand how to customize this "SWReavealContoller" Library for our project in iOS.
 
 
 
 ![imageedit_2_7280189651](https://cloud.githubusercontent.com/assets/16932599/21347118/56dec98e-c6cd-11e6-8724-ac03fabad40a.jpg)
 
 
-3. SearchFeature Demo App in iOS: Search Feature is an important and basic feature to develop an e-Commerce application like Flipcart, Amazon and also an important feature for food ordering apps and so on. In this project, I have implemented Search Feature functionality on tableview data. like this, we can easily implement the search feature any where in the Application.
+==>> SearchFeature Demo App in iOS: Search Feature is an important and basic feature to develop an e-Commerce application like Flipcart, Amazon and also an important feature for food ordering apps and so on. In this project, I have implemented Search Feature functionality on tableview data. like this, we can easily implement the search feature any where in the Application.
 
 
 ![imageedit_15_6851587980](https://cloud.githubusercontent.com/assets/16932599/21347036/f7d382c2-c6cc-11e6-8bf9-517c9fff128e.jpg)
 
 
-4. PulltoRefresh & Scroll to Down Demo App in iOS: Pull to Refresh Feature is a basic feature in mobile Apps such as Facebook, Twitter in which data needs to update every time. This feature plays an important role when network is not working properly. When Network is not good, sometimes data will be empty, in those cases, we can use this pull to refresh to reload the data.In this demo, you can find the implemetation of this PulltoRefresh feature with simple example like shown below.
+==>> PulltoRefresh & Scroll to Down Demo App in iOS: Pull to Refresh Feature is a basic feature in mobile Apps such as Facebook, Twitter in which data needs to update every time. This feature plays an important role when network is not working properly. When Network is not good, sometimes data will be empty, in those cases, we can use this pull to refresh to reload the data.In this demo, you can find the implemetation of this PulltoRefresh feature with simple example like shown below.
