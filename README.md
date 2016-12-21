@@ -44,3 +44,9 @@ Description:
 
 
 ==>> PulltoRefresh & Scroll to Down Demo App in iOS: Pull to Refresh Feature is a basic feature in mobile Apps such as Facebook, Twitter in which data needs to update every time. This feature plays an important role when network is not working properly. When Network is not good, sometimes data will be empty, in those cases, we can use this pull to refresh to reload the data.In this demo, you can find the implemetation of this PulltoRefresh feature with simple example like shown below.
+
+
+![imageedit_25_9030434105](https://cloud.githubusercontent.com/assets/16932599/21383835/aa6273e2-c78d-11e6-8f49-6944a2f69485.jpg)
+
+
+
