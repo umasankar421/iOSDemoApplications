@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2999DED1DBA3A33006A2BA0 /* ShareKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2999DEC1DBA3A32006A2BA0 /* ShareKitViewController.m */; };
+		B2DF3CA11DB8E9E60098B469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CA01DB8E9E60098B469 /* main.m */; };
+		B2DF3CA41DB8E9E70098B469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CA31DB8E9E70098B469 /* AppDelegate.m */; };
+		B2DF3CA71DB8E9E70098B469 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CA61DB8E9E70098B469 /* ViewController.m */; };
+		B2DF3CAA1DB8E9E70098B469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DF3CA81DB8E9E70098B469 /* Main.storyboard */; };
+		B2DF3CAD1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CAB1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodeld */; };
+		B2DF3CAF1DB8E9E70098B469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DF3CAE1DB8E9E70098B469 /* Assets.xcassets */; };
+		B2DF3CB21DB8E9E70098B469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DF3CB01DB8E9E70098B469 /* LaunchScreen.storyboard */; };
+		B2DF3CBD1DB8E9E90098B469 /* FaceBookIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CBC1DB8E9E90098B469 /* FaceBookIntegrationTests.m */; };
+		B2DF3CC81DB8E9EA0098B469 /* FaceBookIntegrationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DF3CC71DB8E9EA0098B469 /* FaceBookIntegrationUITests.m */; };
+		B2DF3FF21DB8F67B0098B469 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FED1DB8F67B0098B469 /* Bolts.framework */; };
+		B2DF3FF31DB8F67B0098B469 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FED1DB8F67B0098B469 /* Bolts.framework */; };
+		B2DF3FF41DB8F67B0098B469 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FED1DB8F67B0098B469 /* Bolts.framework */; };
+		B2DF3FF51DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEE1DB8F67B0098B469 /* FBSDKCoreKit.framework */; };
+		B2DF3FF61DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEE1DB8F67B0098B469 /* FBSDKCoreKit.framework */; };
+		B2DF3FF71DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEE1DB8F67B0098B469 /* FBSDKCoreKit.framework */; };
+		B2DF3FF81DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEF1DB8F67B0098B469 /* FBSDKLoginKit.framework */; };
+		B2DF3FF91DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEF1DB8F67B0098B469 /* FBSDKLoginKit.framework */; };
+		B2DF3FFA1DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FEF1DB8F67B0098B469 /* FBSDKLoginKit.framework */; };
+		B2DF3FFB1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF01DB8F67B0098B469 /* FBSDKMessengerShareKit.framework */; };
+		B2DF3FFC1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF01DB8F67B0098B469 /* FBSDKMessengerShareKit.framework */; };
+		B2DF3FFD1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF01DB8F67B0098B469 /* FBSDKMessengerShareKit.framework */; };
+		B2DF3FFE1DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF11DB8F67B0098B469 /* FBSDKShareKit.framework */; };
+		B2DF3FFF1DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF11DB8F67B0098B469 /* FBSDKShareKit.framework */; };
+		B2DF40001DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DF3FF11DB8F67B0098B469 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2DF3CB91DB8E9E90098B469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DF3C941DB8E9E50098B469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DF3C9B1DB8E9E60098B469;
+			remoteInfo = FaceBookIntegration;
+		};
+		B2DF3CC41DB8E9EA0098B469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2DF3C941DB8E9E50098B469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2DF3C9B1DB8E9E60098B469;
+			remoteInfo = FaceBookIntegration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2999DEB1DBA3A32006A2BA0 /* ShareKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareKitViewController.h; path = FaceBookIntegration/Share/ShareKitViewController.h; sourceTree = "<group>"; };
+		B2999DEC1DBA3A32006A2BA0 /* ShareKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareKitViewController.m; path = FaceBookIntegration/Share/ShareKitViewController.m; sourceTree = "<group>"; };
+		B2DF3C9C1DB8E9E60098B469 /* FaceBookIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DF3CA01DB8E9E60098B469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2DF3CA21DB8E9E70098B469 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2DF3CA31DB8E9E70098B469 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2DF3CA51DB8E9E70098B469 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2DF3CA61DB8E9E70098B469 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2DF3CA91DB8E9E70098B469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2DF3CAC1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceBookIntegration.xcdatamodel; sourceTree = "<group>"; };
+		B2DF3CAE1DB8E9E70098B469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2DF3CB11DB8E9E70098B469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2DF3CB31DB8E9E70098B469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DF3CB81DB8E9E90098B469 /* FaceBookIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DF3CBC1DB8E9E90098B469 /* FaceBookIntegrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookIntegrationTests.m; sourceTree = "<group>"; };
+		B2DF3CBE1DB8E9E90098B469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DF3CC31DB8E9EA0098B469 /* FaceBookIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DF3CC71DB8E9EA0098B469 /* FaceBookIntegrationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookIntegrationUITests.m; sourceTree = "<group>"; };
+		B2DF3CC91DB8E9EA0098B469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DF3FED1DB8F67B0098B469 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		B2DF3FEE1DB8F67B0098B469 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B2DF3FEF1DB8F67B0098B469 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B2DF3FF01DB8F67B0098B469 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		B2DF3FF11DB8F67B0098B469 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2DF3C991DB8E9E60098B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3FFB1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				B2DF3FF21DB8F67B0098B469 /* Bolts.framework in Frameworks */,
+				B2DF3FFE1DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */,
+				B2DF3FF51DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */,
+				B2DF3FF81DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CB51DB8E9E90098B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3FFC1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				B2DF3FF31DB8F67B0098B469 /* Bolts.framework in Frameworks */,
+				B2DF3FFF1DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */,
+				B2DF3FF61DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */,
+				B2DF3FF91DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CC01DB8E9EA0098B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3FFD1DB8F67B0098B469 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				B2DF3FF41DB8F67B0098B469 /* Bolts.framework in Frameworks */,
+				B2DF40001DB8F67B0098B469 /* FBSDKShareKit.framework in Frameworks */,
+				B2DF3FF71DB8F67B0098B469 /* FBSDKCoreKit.framework in Frameworks */,
+				B2DF3FFA1DB8F67B0098B469 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2999DEA1DBA1A5F006A2BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF3FED1DB8F67B0098B469 /* Bolts.framework */,
+				B2DF3FEE1DB8F67B0098B469 /* FBSDKCoreKit.framework */,
+				B2DF3FEF1DB8F67B0098B469 /* FBSDKLoginKit.framework */,
+				B2DF3FF01DB8F67B0098B469 /* FBSDKMessengerShareKit.framework */,
+				B2DF3FF11DB8F67B0098B469 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2999DEE1DBA3A5A006A2BA0 /* ShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				B2999DEB1DBA3A32006A2BA0 /* ShareKitViewController.h */,
+				B2999DEC1DBA3A32006A2BA0 /* ShareKitViewController.m */,
+			);
+			name = ShareKit;
+			sourceTree = "<group>";
+		};
+		B2DF3C931DB8E9E50098B469 = {
+			isa = PBXGroup;
+			children = (
+				B2999DEE1DBA3A5A006A2BA0 /* ShareKit */,
+				B2DF3C9E1DB8E9E60098B469 /* FaceBookIntegration */,
+				B2DF3CBB1DB8E9E90098B469 /* FaceBookIntegrationTests */,
+				B2DF3CC61DB8E9EA0098B469 /* FaceBookIntegrationUITests */,
+				B2DF3C9D1DB8E9E60098B469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2DF3C9D1DB8E9E60098B469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF3C9C1DB8E9E60098B469 /* FaceBookIntegration.app */,
+				B2DF3CB81DB8E9E90098B469 /* FaceBookIntegrationTests.xctest */,
+				B2DF3CC31DB8E9EA0098B469 /* FaceBookIntegrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2DF3C9E1DB8E9E60098B469 /* FaceBookIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				B2999DEA1DBA1A5F006A2BA0 /* Frameworks */,
+				B2DF3CA21DB8E9E70098B469 /* AppDelegate.h */,
+				B2DF3CA31DB8E9E70098B469 /* AppDelegate.m */,
+				B2DF3CA51DB8E9E70098B469 /* ViewController.h */,
+				B2DF3CA61DB8E9E70098B469 /* ViewController.m */,
+				B2DF3CA81DB8E9E70098B469 /* Main.storyboard */,
+				B2DF3CAE1DB8E9E70098B469 /* Assets.xcassets */,
+				B2DF3CB01DB8E9E70098B469 /* LaunchScreen.storyboard */,
+				B2DF3CB31DB8E9E70098B469 /* Info.plist */,
+				B2DF3CAB1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodeld */,
+				B2DF3C9F1DB8E9E60098B469 /* Supporting Files */,
+			);
+			path = FaceBookIntegration;
+			sourceTree = "<group>";
+		};
+		B2DF3C9F1DB8E9E60098B469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF3CA01DB8E9E60098B469 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2DF3CBB1DB8E9E90098B469 /* FaceBookIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF3CBC1DB8E9E90098B469 /* FaceBookIntegrationTests.m */,
+				B2DF3CBE1DB8E9E90098B469 /* Info.plist */,
+			);
+			path = FaceBookIntegrationTests;
+			sourceTree = "<group>";
+		};
+		B2DF3CC61DB8E9EA0098B469 /* FaceBookIntegrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF3CC71DB8E9EA0098B469 /* FaceBookIntegrationUITests.m */,
+				B2DF3CC91DB8E9EA0098B469 /* Info.plist */,
+			);
+			path = FaceBookIntegrationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2DF3C9B1DB8E9E60098B469 /* FaceBookIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DF3CCC1DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegration" */;
+			buildPhases = (
+				B2DF3C981DB8E9E60098B469 /* Sources */,
+				B2DF3C991DB8E9E60098B469 /* Frameworks */,
+				B2DF3C9A1DB8E9E60098B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookIntegration;
+			productName = FaceBookIntegration;
+			productReference = B2DF3C9C1DB8E9E60098B469 /* FaceBookIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2DF3CB71DB8E9E90098B469 /* FaceBookIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DF3CCF1DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegrationTests" */;
+			buildPhases = (
+				B2DF3CB41DB8E9E90098B469 /* Sources */,
+				B2DF3CB51DB8E9E90098B469 /* Frameworks */,
+				B2DF3CB61DB8E9E90098B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DF3CBA1DB8E9E90098B469 /* PBXTargetDependency */,
+			);
+			name = FaceBookIntegrationTests;
+			productName = FaceBookIntegrationTests;
+			productReference = B2DF3CB81DB8E9E90098B469 /* FaceBookIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2DF3CC21DB8E9EA0098B469 /* FaceBookIntegrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2DF3CD21DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegrationUITests" */;
+			buildPhases = (
+				B2DF3CBF1DB8E9EA0098B469 /* Sources */,
+				B2DF3CC01DB8E9EA0098B469 /* Frameworks */,
+				B2DF3CC11DB8E9EA0098B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2DF3CC51DB8E9EA0098B469 /* PBXTargetDependency */,
+			);
+			name = FaceBookIntegrationUITests;
+			productName = FaceBookIntegrationUITests;
+			productReference = B2DF3CC31DB8E9EA0098B469 /* FaceBookIntegrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2DF3C941DB8E9E50098B469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dev;
+				TargetAttributes = {
+					B2DF3C9B1DB8E9E60098B469 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3QUCRBS8A9;
+						ProvisioningStyle = Automatic;
+					};
+					B2DF3CB71DB8E9E90098B469 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3QUCRBS8A9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2DF3C9B1DB8E9E60098B469;
+					};
+					B2DF3CC21DB8E9EA0098B469 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3QUCRBS8A9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2DF3C9B1DB8E9E60098B469;
+					};
+				};
+			};
+			buildConfigurationList = B2DF3C971DB8E9E50098B469 /* Build configuration list for PBXProject "FaceBookIntegration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2DF3C931DB8E9E50098B469;
+			productRefGroup = B2DF3C9D1DB8E9E60098B469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2DF3C9B1DB8E9E60098B469 /* FaceBookIntegration */,
+				B2DF3CB71DB8E9E90098B469 /* FaceBookIntegrationTests */,
+				B2DF3CC21DB8E9EA0098B469 /* FaceBookIntegrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2DF3C9A1DB8E9E60098B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3CB21DB8E9E70098B469 /* LaunchScreen.storyboard in Resources */,
+				B2DF3CAF1DB8E9E70098B469 /* Assets.xcassets in Resources */,
+				B2DF3CAA1DB8E9E70098B469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CB61DB8E9E90098B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CC11DB8E9EA0098B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2DF3C981DB8E9E60098B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2999DED1DBA3A33006A2BA0 /* ShareKitViewController.m in Sources */,
+				B2DF3CAD1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodeld in Sources */,
+				B2DF3CA71DB8E9E70098B469 /* ViewController.m in Sources */,
+				B2DF3CA41DB8E9E70098B469 /* AppDelegate.m in Sources */,
+				B2DF3CA11DB8E9E60098B469 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CB41DB8E9E90098B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3CBD1DB8E9E90098B469 /* FaceBookIntegrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DF3CBF1DB8E9EA0098B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DF3CC81DB8E9EA0098B469 /* FaceBookIntegrationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2DF3CBA1DB8E9E90098B469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DF3C9B1DB8E9E60098B469 /* FaceBookIntegration */;
+			targetProxy = B2DF3CB91DB8E9E90098B469 /* PBXContainerItemProxy */;
+		};
+		B2DF3CC51DB8E9EA0098B469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2DF3C9B1DB8E9E60098B469 /* FaceBookIntegration */;
+			targetProxy = B2DF3CC41DB8E9EA0098B469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2DF3CA81DB8E9E70098B469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DF3CA91DB8E9E70098B469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2DF3CB01DB8E9E70098B469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2DF3CB11DB8E9E70098B469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2DF3CCA1DB8E9EA0098B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2DF3CCB1DB8E9EA0098B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2DF3CCD1DB8E9EA0098B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2DF3CCE1DB8E9EA0098B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.SampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2DF3CD01DB8E9EA0098B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.FaceBookIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookIntegration.app/FaceBookIntegration";
+			};
+			name = Debug;
+		};
+		B2DF3CD11DB8E9EA0098B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.FaceBookIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookIntegration.app/FaceBookIntegration";
+			};
+			name = Release;
+		};
+		B2DF3CD31DB8E9EA0098B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.FaceBookIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookIntegration;
+			};
+			name = Debug;
+		};
+		B2DF3CD41DB8E9EA0098B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3QUCRBS8A9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDKs-iOS-4.16.1",
+					"$(PROJECT_DIR)/FaceBookIntegration/FacebookSDK",
+				);
+				INFOPLIST_FILE = FaceBookIntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginworks.FaceBookIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookIntegration;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2DF3C971DB8E9E50098B469 /* Build configuration list for PBXProject "FaceBookIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DF3CCA1DB8E9EA0098B469 /* Debug */,
+				B2DF3CCB1DB8E9EA0098B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DF3CCC1DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DF3CCD1DB8E9EA0098B469 /* Debug */,
+				B2DF3CCE1DB8E9EA0098B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DF3CCF1DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DF3CD01DB8E9EA0098B469 /* Debug */,
+				B2DF3CD11DB8E9EA0098B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2DF3CD21DB8E9EA0098B469 /* Build configuration list for PBXNativeTarget "FaceBookIntegrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2DF3CD31DB8E9EA0098B469 /* Debug */,
+				B2DF3CD41DB8E9EA0098B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2DF3CAB1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2DF3CAC1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodel */,
+			);
+			currentVersion = B2DF3CAC1DB8E9E70098B469 /* FaceBookIntegration.xcdatamodel */;
+			path = FaceBookIntegration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2DF3C941DB8E9E50098B469 /* Project object */;
+}
